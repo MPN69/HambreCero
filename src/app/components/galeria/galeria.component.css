@@ -1,0 +1,52 @@
+div div div img{
+    max-height: 55rem;
+    /* max-width: 55rem; */
+    
+}
+
+#modalImage1, #modalImage2, #modalImage3, #modalImage4{
+    margin:auto;
+}
+#modalImage3{
+    left: 8%;
+}
+#ola{
+    width:55rem;
+    height: 55rem;
+}
+
+
+/* body{
+    
+    background: #283c86;
+    background: -webkit-linear-gradient(to right, #45a247, #283c86);
+    background: linear-gradient(to right, #45a247, #283c86);
+    
+} */
+
+/* image{
+    align-content: space-around;
+} */
+
+section div div img{
+    width: 100%;
+    height: 30rem;
+    border-radius: 1rem;
+    /* align-content: space-around; */
+    transition:all .2s ease-in-out;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+section div div img:hover{
+    width: 100%;
+    border-radius: 1.5rem;
+    transform: translateY(-15px);
+    box-shadow: 0px 7px 15px #000;
+    transition:all .2s ease-in-out;
+}
+
+#a div div img{
+    width: 100%;
+    height: auto;
+}

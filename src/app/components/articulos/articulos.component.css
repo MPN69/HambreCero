@@ -1,0 +1,15 @@
+.card-title{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.card-text{
+    font-family: 'Nunito', sans-serif;
+}
+p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 2rem;
+}
+.text-muted{
+    font-size: 1.4rem;
+}
