@@ -1,10 +1,10 @@
 import { NgModule } from "@angular/core";
 import{RouterModule, Routes}from'@angular/router'
-import { A1Component } from "./components/a1/a1.component";
-import { ArticulosComponent } from "./components/articulos/articulos.component";
-import { AyudaComponent } from "./components/ayuda/ayuda.component";
-import { GaleriaComponent } from "./components/galeria/galeria.component";
-import { ListadoComponent } from "./components/listado/listado.component";
+import { A1Component } from "./app/components/a1/a1.component";
+import { ArticulosComponent } from "./app/components/articulos/articulos.component";
+import { AyudaComponent } from "./app/components/ayuda/ayuda.component";
+import { GaleriaComponent } from "./app/components/galeria/galeria.component";
+import { ListadoComponent } from "./app/components/listado/listado.component";
 
 const routes: Routes=[
     {path:'',redirectTo:'galeria',pathMatch:'full'},
