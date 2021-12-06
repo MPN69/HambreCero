@@ -1,1 +1,26 @@
-<p>listado works!</p>
+<article>
+<div class="contenedor mx-4">
+    <table>
+
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Cargo</th>
+                <th>Fecha de Inicio</th>
+                <th>Antecedentes</th>
+                <th>Profesion</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr *ngFor="let datos of datosJSON">
+                <td>{{datos.nombre}}</td>
+                <td>{{datos.puesto}}</td>
+                <td>{{datos.inicio}}</td>
+                <td>{{datos.antecedente}}</td>
+                <td>{{datos.profesion}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</article>
