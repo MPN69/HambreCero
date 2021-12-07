@@ -1,0 +1,63 @@
+body{
+    background: #2980B9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#sidebar{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 35%;
+    float: right;
+}
+
+#sidebar h4{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 10px;
+    color: rgba(128, 128, 128, 0.76);
+}
+#sidebar img{
+    width: 100%;
+}
+#sidebar p{
+    text-align: justify;
+}
+#posts{
+    width: 60%;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(168, 167, 167, 0.356);
+    margin-left: 3%;
+}
+.post{
+    padding: 5px;
+
+}
+
+
+.post h2{
+    margin-top: 20px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+/* 
+.card-title{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+    font-size: 2rem;
+} */
+.card-text{
+    font-family: 'Nunito', sans-serif;
+}
+p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 2rem;
+}
+.text-muted{
+    font-size: 1.4rem;
+}
