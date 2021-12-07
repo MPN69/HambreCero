@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListadoComponent implements OnInit {
 
-  datosJSON: any = [{
+  datosJSON: any = [{//Arreglo con los datos del listado (10 ejemplos)
     "nombre": "Hans Hoogenveen",
     "puesto": "Presidente Independiente del Consejo",
     "inicio": "17 de Junio de 2021",

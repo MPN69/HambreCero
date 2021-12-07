@@ -4,6 +4,11 @@ div div div img{
     
 }
 
+
+/*Diseño de la galeria de imagenes*/
+
+
+
 #modalImage1, #modalImage2, #modalImage3, #modalImage4{
     margin:auto;
 }
@@ -14,19 +19,6 @@ div div div img{
     width:55rem;
     height: 55rem;
 }
-
-
-/* body{
-    
-    background: #283c86;
-    background: -webkit-linear-gradient(to right, #45a247, #283c86);
-    background: linear-gradient(to right, #45a247, #283c86);
-    
-} */
-
-/* image{
-    align-content: space-around;
-} */
 
 section div div img{
     width: 100%;

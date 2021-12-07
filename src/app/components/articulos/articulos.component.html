@@ -1,29 +1,27 @@
-<router-outlet></router-outlet>
-
-<div class="card-deck mx-3 my-3">
+<div class="card-deck mx-3 my-3"><!--Inicia la sexion de cartas-->
   <div class="card" *ngFor="let inf of datosJSON">
     <img class="card-img-top" src="{{inf.imagen}}" alt="Card image cap">
     <div class="card-body" >
       <h5 class="card-title">{{inf.titulo}}</h5>
       <p>{{inf.contenido}}</p>
     </div>
-    <div class="col-6 mb-4"><a class="btn btn-info text-light" routerLink="/a1" role="button">Mas Informacion</a></div>
+    <div class="col-6 mb-4"><a class="btn btn-info text-light" routerLink="{{inf.link}}" role="button">Mas Informacion</a></div>
     <div class="card-footer">
       <small class="text-muted">
         {{inf.autor}}<cite title="Source Title"><br>{{inf.referencia}}</cite>
       </small>
     </div>
   </div>
-</div>
+</div><!--Termina la sexion de cartas-->
 
-<div class="card-deck mx-3 my-3"><!--Cards 2-->
+<div class="card-deck mx-3 my-3"><!--Inicia la segunda sexion de cartas-->
   <div class="card" *ngFor="let inf of datosJSON2">
     <img class="card-img-top" src="{{inf.imagen}}" alt="Card image cap">
     <div class="card-body" >
       <h5 class="card-title">{{inf.titulo}}</h5>
       <p>{{inf.contenido}}</p>
     </div>
-    <div class="col-6 mb-4"><a class="btn btn-info text-light" role="button" [routerLink]="['articulo1']">Mas Informacionccad</a></div>
+      <div class="col-6 mb-4"><a class="btn btn-info text-light" routerLink="{{inf.link}}" role="button">Mas Informacion</a></div>
     <div class="card-footer">
       <small class="text-muted">
         {{inf.autor}}<cite title="Source Title"><br>{{inf.referencia}}</cite>
@@ -31,6 +29,7 @@
     </div>
   </div>
 </div><!--End cards 2-->
+
 <div class="card bg-primary text-white text-center p-3 m-4">
   <blockquote class="blockquote">
     <h1 class="card-header">Objetivo 2: Hambre cero</h1>
