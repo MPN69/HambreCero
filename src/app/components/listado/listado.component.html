@@ -3,10 +3,10 @@
     <table>
 
         <thead>
-            <tr>
+            <tr class="bg-dark">
                 <th>Nombre</th>
                 <th>Cargo</th>
-                <th>Fecha de Inicio</th>
+                <th id="fecha">Fecha de Inicio</th>
                 <th>Antecedentes</th>
                 <th>Profesion</th>
             </tr>
@@ -14,7 +14,7 @@
 
         <tbody>
             <tr *ngFor="let datos of datosJSON">
-                <td>{{datos.nombre}}</td>
+                <td id="nombre">{{datos.nombre}}</td>
                 <td>{{datos.puesto}}</td>
                 <td>{{datos.inicio}}</td><!--Lista de los datos traidos desde el TS-->
                 <td>{{datos.antecedente}}</td>

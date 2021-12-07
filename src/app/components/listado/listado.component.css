@@ -13,3 +13,22 @@ table {
   tr:nth-child(even) {
     background-color: #dddddd;
   }
+
+  td{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  th{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: white;
+  }
+
+#nombre{
+  font-weight: bolder;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.5rem;
+}
